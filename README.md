@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/885654c3-95a5-4a7a-a8b5-5d3548eba459/deploy-status)](https://app.netlify.com/sites/angular-quiz-app-mrinmay/deploys)
-
 # AngularQuiz
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
