@@ -32,7 +32,7 @@
   },
   {
     "id": 4,
-    "questionText": "Which company manufactures iPhone (Last Question), ?",
+    "questionText": "Which company manufactures iPhone ?",
     "answerOptions": [
       { "value": "Apple", "isCorrect": true },
       { "value": "Motorola", "isCorrect": false },
