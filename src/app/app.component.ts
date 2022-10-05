@@ -27,7 +27,7 @@ export class AppComponent {
   showScore: boolean = false;
   score: number = 0;
 
-  // **  The below methods moves to the next question
+  // ** Below methods checks if the Quiz has ended or not
 
   checkGameEndedOrNot() {
     if (this.questionIndexNumber >= this.questions.length) {
@@ -38,12 +38,9 @@ export class AppComponent {
     }
   }
 
-  handleClickOption(Option: any) {
+  // It checks if the answer is correct or not and moves to the next question
+  handleClickOption(Option: answerOption) {
     if (this.questionIndexNumber <= this.questions.length) {
-      let correctAnswer = this.currentQuestion.answerOptions.filter(
-        (item: answerOption) => item.isCorrect === true
-      )[0].value;
-
       if (Option.isCorrect === true) {
         this.score = this.score + 1;
       }

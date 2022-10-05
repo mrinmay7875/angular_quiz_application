@@ -18,17 +18,16 @@ export class QuestionPageComponent implements OnInit {
   @Output() listenParentHandlerC: EventEmitter<any> = new EventEmitter();
   @Output() listenParentHandlerD: EventEmitter<any> = new EventEmitter();
 
-  childClickA() {
+  clickOnOptionA() {
     this.listenParentHandlerA.emit();
   }
-  childClickB() {
+  clickOnOptionB() {
     this.listenParentHandlerB.emit();
   }
-  childClickC() {
+  clickOnOptionC() {
     this.listenParentHandlerC.emit();
   }
-
-  childClickD() {
+  clickOnOptionD() {
     this.listenParentHandlerD.emit();
   }
 
