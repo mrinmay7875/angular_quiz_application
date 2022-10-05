@@ -1,0 +1,16 @@
+.card-wrapper{
+margin:5% 20%;
+}
+
+.example-card{
+    background-color:#eeeae1;
+
+}
+
+#firstOption{
+    margin:0 8px;
+}
+
+#lastOption{
+    margin-bottom: 20px;
+}

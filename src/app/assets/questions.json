@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "questionText": "When is the Independence day of India ?",
+
+    "answerOptions": [
+      { "value": "1897", "isCorrect": false },
+      { "value": "1234", "isCorrect": false },
+      { "value": "1947", "isCorrect": true },
+      { "value": "3357", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "questionText": "What is the capita of India ?",
+    "answerOptions": [
+      { "value": "New Delhi", "isCorrect": true },
+      { "value": "Pune", "isCorrect": false },
+      { "value": "Mumbai", "isCorrect": false },
+      { "value": "Bangalore", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "questionText": "Full form of TCS ?",
+    "answerOptions": [
+      { "value": "Tata Consultancy Services", "isCorrect": true },
+      { "value": "Tata Motors", "isCorrect": false },
+      { "value": "Tata Tech Services", "isCorrect": false },
+      { "value": "Tata Technology Services", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 4,
+    "questionText": "Which company manufactures iPhone (Last Question), ?",
+    "answerOptions": [
+      { "value": "Apple", "isCorrect": true },
+      { "value": "Motorola", "isCorrect": false },
+      { "value": "Samsung", "isCorrect": false },
+      { "value": "Tesla", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "questionText": "Which company owns YouTube ?",
+    "answerOptions": [
+      { "value": "Apple", "isCorrect": false },
+      { "value": "Google", "isCorrect": true },
+      { "value": "Microsoft", "isCorrect": false },
+      { "value": "Facebook", "isCorrect": false }
+    ]
+  }
+]
