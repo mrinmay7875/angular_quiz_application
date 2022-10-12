@@ -1,33 +1,33 @@
 [
   {
     "id": 1,
-    "questionText": "When is the Independence day of India ?",
+    "questionText": "Which one among is not a Python Framework?",
 
     "answerOptions": [
-      { "value": "1897", "isCorrect": false },
-      { "value": "1234", "isCorrect": false },
-      { "value": "1947", "isCorrect": true },
-      { "value": "3357", "isCorrect": false }
+      { "value": "Django", "isCorrect": false },
+      { "value": "FastAPI", "isCorrect": false },
+      { "value": "Fastify", "isCorrect": true },
+      { "value": "Flask", "isCorrect": false }
     ]
   },
   {
     "id": 2,
-    "questionText": "What is the capita of India ?",
+    "questionText": "Which company introduced Angular JS framework ?",
     "answerOptions": [
-      { "value": "New Delhi", "isCorrect": true },
-      { "value": "Pune", "isCorrect": false },
-      { "value": "Mumbai", "isCorrect": false },
-      { "value": "Bangalore", "isCorrect": false }
+      { "value": "Google", "isCorrect": true },
+      { "value": "Facebook", "isCorrect": false },
+      { "value": "Microsoft", "isCorrect": false },
+      { "value": "Apple", "isCorrect": false }
     ]
   },
   {
     "id": 3,
-    "questionText": "Full form of TCS ?",
+    "questionText": "In which city Infosys had its first office ?",
     "answerOptions": [
-      { "value": "Tata Consultancy Services", "isCorrect": true },
-      { "value": "Tata Motors", "isCorrect": false },
-      { "value": "Tata Tech Services", "isCorrect": false },
-      { "value": "Tata Technology Services", "isCorrect": false }
+      { "value": "Pune", "isCorrect": true },
+      { "value": "Bangalore", "isCorrect": false },
+      { "value": "Hyderabad", "isCorrect": false },
+      { "value": "Kolkata", "isCorrect": false }
     ]
   },
   {
@@ -48,6 +48,58 @@
       { "value": "Google", "isCorrect": true },
       { "value": "Microsoft", "isCorrect": false },
       { "value": "Facebook", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 6,
+    "questionText": "Which one is backend framework ?",
+    "answerOptions": [
+      { "value": "Angular.js", "isCorrect": false },
+      { "value": "Express.js", "isCorrect": true },
+      { "value": "React.js", "isCorrect": false },
+      { "value": "Vue.js", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 7,
+    "questionText": "In which year React.js was released ?",
+    "answerOptions": [
+      { "value": "2011", "isCorrect": false },
+      { "value": "2012", "isCorrect": false },
+      { "value": "2013", "isCorrect": true },
+      { "value": "2014", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 8,
+    "questionText": "Which one is NoSQL database ?",
+    "answerOptions": [
+      { "value": "MySQL", "isCorrect": false },
+      { "value": "MongoDB", "isCorrect": true },
+      { "value": "PostgreSQL", "isCorrect": false },
+      { "value": "DynamoDB", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 9,
+    "questionText": "What is certification code for Azure fundamentals ?",
+    "answerOptions": [
+      { "value": "AZ-204", "isCorrect": false },
+      { "value": "AZ-900", "isCorrect": true },
+      { "value": "DP-204", "isCorrect": false },
+      { "value": "AZ-100", "isCorrect": false }
+    ]
+  },
+  {
+     "id": 10,
+    "questionText": "Which one is state management library?",
+    "answerOptions": [
+      { "value": "Axios", "isCorrect": false },
+      { "value": "Redux", "isCorrect": true },
+      { "value": "Moment", "isCorrect": false },
+      { "value": "Material UI", "isCorrect": false }
     ]
   }
 ]

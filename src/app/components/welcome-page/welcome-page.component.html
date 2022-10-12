@@ -4,17 +4,21 @@
   </h1>
 </div>
 
+<div class="game-rules-text"> Rules: In this Quiz there will be total 10 questions</div>
+
 <div class="enter-name-text">Please enter your name before starting the game</div>
 
 <form [formGroup]="loginForm" (ngSubmit)="loginUser()">
   <div>
     <mat-form-field appearance="fill">
-      <mat-label>Enter your name here...</mat-label>
+      <mat-label>Name</mat-label>
       <input matInput formControlName="username" />
     </mat-form-field>
   </div>
 
   <div class="button-container">
-    <button mat-raised-button color="primary">Submit Name</button>
+    <button mat-raised-button color="primary">Submit</button>
   </div>
 </form>
+
+<!-- <h4>{{username}}</h4> -->
