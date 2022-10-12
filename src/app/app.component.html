@@ -1,28 +1,3 @@
-<div class="header-container">
-   <h1 class="mat-display-1" id="header" >Quiz Application Built using Angular 14</h1>
-</div>
 
-<!-- <app-question-page
-  question_text="This is our first question"
-  question_number="Q1" 
-></app-question-page> -->
-
-
-
-<app-question-page *ngIf="!gameEnded"
-question_text={{currentQuestion.questionText}}
-question_number={{currentQuestion.id}}
-OptionA={{currentQuestion.answerOptions[0].value}}
-OptionB={{currentQuestion.answerOptions[1].value}}
-OptionC={{currentQuestion.answerOptions[2].value}}
-OptionD={{currentQuestion.answerOptions[3].value}}
-
-(listenParentHandlerA)="handleClickOption(currentQuestion.answerOptions[0])"
-(listenParentHandlerB)="handleClickOption(currentQuestion.answerOptions[1])"
-(listenParentHandlerC)="handleClickOption(currentQuestion.answerOptions[2])"
-(listenParentHandlerD)="handleClickOption(currentQuestion.answerOptions[3])"
-></app-question-page>
-
-
-<h3 *ngIf="showScore" class="mat-display-1"> You have scored {{score}}</h3>
-<h2 class="md-display-1">{{gameEndText}}</h2>
+<!-- <h3>This is the welcome page of quiz</h3> -->
+<router-outlet></router-outlet>

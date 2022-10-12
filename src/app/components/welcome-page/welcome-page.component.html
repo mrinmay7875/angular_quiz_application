@@ -1,0 +1,20 @@
+<div class="header-container">
+  <h1 class="mat-display-1" id="header">
+    Welcome to Quiz Application Built using Angular 14
+  </h1>
+</div>
+
+<div class="enter-name-text">Please enter your name before starting the game</div>
+
+<form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+  <div>
+    <mat-form-field appearance="fill">
+      <mat-label>Enter your name here...</mat-label>
+      <input matInput formControlName="username" />
+    </mat-form-field>
+  </div>
+
+  <div class="button-container">
+    <button mat-raised-button color="primary">Submit Name</button>
+  </div>
+</form>

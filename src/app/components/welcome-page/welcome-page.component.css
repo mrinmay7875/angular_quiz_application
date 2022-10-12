@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+#header {
+  font-family: "Oxygen", Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  color: #570a57;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.button-container {
+  margin-top: 2rem;
+}
+
+.enter-name-text {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 1.5rem;
+}
